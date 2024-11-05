@@ -1,0 +1,258 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+.header-contenedor {
+    background-color: #dc602e;
+    /* font-family: "Shantell Sans", cursive; */
+    font-family: "Dekko", cursive;
+    color: #ffffff;
+    width: 100vw;
+    display: flex;
+}
+
+.logo img {
+    width: 100px;
+    border-radius: 60px;
+    padding: 10px;
+    display: flex;
+}
+
+.logo-contenedor {
+    width: 50vw;
+    text-align: left;
+    display: flex;
+}
+
+p {
+    font-family: "Afacad Flux", sans-serif;    
+}
+
+header h1 {
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.nav {
+    width: 50vw;
+    margin-top: 37px;
+    text-align: right;
+    padding: 10px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+li {
+    display: inline-block;
+    text-align: right;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    /* object-fit: cover; */
+}
+
+h2 {
+    font-family: "Shantell Sans", cursive;
+    font-size: 25px;
+    /* margin-left: 50px; */
+}
+
+.main-index {
+    background-image: url(../img/fondo-inicio.jpg);
+    background-size: 100%;
+}
+
+.titulo-index {
+    text-align: center;
+    color: #ffffff;
+}
+
+.nav-index {
+    font-family: "Dekko", cursive;
+    font-size: 24px;    
+}
+
+.ul-index {
+    text-align: center;
+}
+
+.li-index {
+    margin-top: 500px;
+    width: 200px;
+    border: #dc602e 2px solid;
+    background-color: #dc602e;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.nosotros-contenedor {
+    display: flex;
+}
+
+.texto-nosotros h2 {
+    margin-left: 50px;
+}
+
+.texto-nosotros {
+    width: 50%;
+    height: 50%;
+    margin-top: 50px;
+    margin-left: 20px;
+    line-height: 1.5;
+    display: display-box;
+}
+
+.texto-nosotros p {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.img-nosotros {
+    width: 400px;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 70px;
+    display: flex;
+}
+
+.adoptar-contenedor {
+    display: flex;
+    width: 10vw;
+    height: 100vh;    
+    align-items: right;
+    /* padding: 10px; */
+    margin-left: 10px;
+}
+
+.fichas-filtro {
+    /* margin-top: 50px; */
+    line-height: 2;
+    display: display-box;
+}
+
+.fichas-filtro h2 {
+    width:300px;
+    /* margin-left: 50px; */
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    line-height: 1.5;
+}
+
+.fichas-filtro form {
+    margin-left: 50px;
+}
+
+.fichas-contenedor {
+    margin-top: 50px;   
+    margin-left: 350px;
+    display: flex;
+}
+
+.ficha {
+    height: 200px;
+    width: 200px;
+    margin-left: 5px; 
+    object-fit: cover;
+}
+
+footer {
+    /* font-family: "Shantell Sans", cursive; */
+    font-family: "Dekko", cursive;
+    text-align: center;
+    width: 100vw;
+    bottom: 0;
+    background-color: #dc602e;
+}
+
+.img-footer-ig {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    padding: 5px;
+}
+
+.img-footer-fb {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    padding: 5px;
+    margin-bottom: 1.5px;
+    }
+
+h4 {
+    color: #ffffff;
+}
+
+.colaborar-contenedor {
+    display: flex;
+    width: 10vw;
+    height: 100vh;    
+    align-items: right;
+    /* padding: 10px; */
+    margin-left: 10px;
+}
+
+.refugios-filtro {
+    margin-top: 50px;
+    line-height: 2;
+    display: display-box;
+}
+
+.refugios-filtro h2 {
+    width:300px;
+    margin-left: 50px;
+}
+
+.refugios-filtro form {
+    margin-left: 50px;
+}
+
+.refugios-contenedor {
+    margin-top: 50px;   
+    margin-left: 400px;
+    display: flex;
+}
+
+.refugio {
+    height: 200px;
+    width: 200px;
+    margin-left: 5px; 
+    object-fit: cover;
+}
+
+
+.contacto-contenedor {
+    display: flex;
+    width: 90vw;
+    align-items: left;
+    /* padding: 80px; */
+    margin-left: 10px;
+}
+
+.titulo-contacto {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    line-height: 1.5;
+    display: display-box;
+}
+
+.contacto-formulario {
+    margin-top: 60px;    
+    display: flex;
+}
+
+label {
+    font-family: "Afacad Flux", sans-serif; 
+    align-items: right;
+}

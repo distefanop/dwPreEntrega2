@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap" rel="stylesheet"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Dekko&display=swap" rel="stylesheet">
+    <title>Adoptagram</title>
+</head>
+<body>
+    <header>
+        <div class="header-contenedor">
+            <div class="logo-contenedor">
+                <div class="logo">
+                    <img src="../img/img-logo.png" alt="logo">
+                </div>
+                <div class="titulo">
+                    <h1>Adoptagram</h1>
+                </div>
+            </div>
+            <!-- <h2>Definir subtitulo</h2> -->
+            <div class="nav">
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="nosotros.html">Nosotros</a></li>
+                        <li><a href="#">Quiero Adoptar</a></li>
+                        <li><a href="quiero-colaborar.html">Quiero Colaborar</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="adoptar-contenedor">
+            <div class="fichas-filtro">
+                <h2>Quiero Adoptar</h2>
+                <div>
+                    <form action="/submit" method="post">
+                        <div>
+                            <label for="provincia">Provincia</label>
+                            <input type="text" name="provincia" id="provincia">
+                        </div>
+                        <div>
+                            <label for="especie">Especie</label>
+                            <input type="text" name="especie" id="especie">
+                        </div>
+                        <div>
+                            <label for="sexo">Sexo</label>
+                            <input type="text" name="sexo" id="sexo">
+                        </div>
+                        <div>
+                            <label for="energico">Enérgico/a</label>
+                            <input type="text" name="energico" id="energico">
+                        </div>
+                        <div>
+                            <label for="desparacitado">Desparacitado/a</label>
+                            <input type="text" name="desparacitado" id="desparacitado">
+                        </div>
+                        <div>
+                            <label for="esterilizado">Esterilizado/a</label>
+                            <input type="text" name="esterilizado" id="esterilizado">
+                        </div>
+                    </form>
+                </div>              
+            </div>
+            <div class="fichas-contenedor">
+                <div class="fichas-fila1">
+                    <img class="ficha" src="../img/img-ficha1.jpg" alt="perro">
+                    <img class="ficha" src="../img/img-ficha2.jpg" alt="gato">
+                    <img class="ficha" src="../img/img-ficha3.jpg" alt="perro">
+                </div>
+                <div class="fichas-fila2">
+                    <img class="ficha" src="../img/img-ficha4.jpg" alt="gato">
+                    <img class="ficha" src="../img/img-ficha5.jpg" alt="perro">
+                    <img class="ficha" src="../img/img-ficha6.jpg" alt="gato">
+                </div>
+                <div class="fichas-fila3">
+                    <img class="ficha" src="../img/img-ficha7.jpg" alt="perro">
+                    <img class="ficha" src="../img/img-ficha8.jpg" alt="gato">
+                    <img class="ficha" src="../img/img-ficha9.jpg" alt="perro">
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <img class="img-footer-ig" src="../img/instalogo.png" alt="-logo-instagram">
+            <img class="img-footer-fb" src="../img/facelogo.png" alt="-logo-facebook">
+        </div>
+        <h4>Adoptagram © 2024. Todos los derechos reservados.</h4>
+    </footer>
+    
+</body>
+</html>
