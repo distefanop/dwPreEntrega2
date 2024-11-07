@@ -124,7 +124,6 @@ h2 {
 .main-contenedor-index {
     background-image: url(../img/fondo-inicio.jpg);
     background-size: 100%;
-    /* background-position: center center; */
     grid-area: main-contenedor-index;
 }
 
@@ -141,22 +140,23 @@ h2 {
     color: #ffffff;
 }
 
-.nav-index {
-    font-family: "Dekko", cursive;
-    font-size: 24px;
+.nav-index ul {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
 }
 
 .nav-index a {
+    font-family: "Dekko", cursive;
+    font-size: 24px;
     text-decoration: none;
     color: #ffffff;
 }
 
-.ul-index {
-    text-align: center;
-}
-
 .li-index {
     margin-top: 350px;
+    margin-left: 10px;
+    margin-right: 10px;
     width: 200px;
     border: #dc602e 2px solid;
     background-color: #dc602e;
@@ -177,13 +177,8 @@ h2 {
 }
 
 .texto-nosotros {
-    /* width: 50%;
-    height: 50%;
-    margin-top: 50px;
-    margin-left: 20px; */
     line-height: 1.5;
     align-self: center;
-    /* flex-direction: column; */
 }
 
 .texto-nosotros p {
@@ -217,25 +212,26 @@ h2 {
 
 .main-contenedor-section1 {
     display: flex;
-    /* margin-top: 50px; */
-    /* width: 30vw; */
-    line-height: 2;
     flex-direction: column;
+    line-height: 2;
+    align-content: start;
     grid-template-areas: main-contenedor-quiero-section1;
 }
 
 .main-contenedor-section1 h2 {
-    width:300px;
-    /* margin-left: 50px; */
     margin-top: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
     line-height: 1;
 }
 
 .main-contenedor-section1 form {
-    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+  
 
+}
+
+.input {
+    margin: 0 auto;
 }
 
 .main-contenedor-section2 {
@@ -334,6 +330,10 @@ h2 {
     /* display: flex; */
 }
 
+.input textarea {
+    width: 184px;
+}
+
 .btn{
     background-color: #dc3f2e;
     border: #dc3f2e 1px solid;
@@ -343,7 +343,7 @@ h2 {
 label {
     font-family: "Afacad Flux", sans-serif;
     align-items: right;
-    padding: 10px;
+    /* padding: 10px; */
 }
 
 /*----------------------------------------------------------Estilo Footer-------------------------------------------------------------*/
@@ -404,6 +404,8 @@ h4 {
 
     .main-contenedor-section1 {
         margin: 0 auto;
+        text-align: center;
+        margin-bottom: 20px;
     }
 
     .main-contenedor-section1 h2 {
@@ -437,13 +439,17 @@ h4 {
         margin-right: 50px;
     }
 
+    .titulo-index {
+        background-color: #dc5f2e8a;
+    }
+
     .li-index {
-        width: 120px;
+        width: 150px;
 
     }
 
     .li-index a {
-        font-size: 15px;
+        font-size: 20px;
     }
 
     .main-contenedor-index {
@@ -452,7 +458,7 @@ h4 {
     }
 
     .main-contenedor-section1 h2 {
-    width:250px;
+        width:250px;
     }
 
     .main-contenedor-section1 form {

@@ -81,19 +81,27 @@
                 <form action="/submit" method="post">
                     <div>
                         <label for="nombre">Nombre</label>
-                        <input type="text" name="nombre" id="nombre">
+                        <div class="input">
+                            <input type="text" name="nombre" id="nombre">
+                        </div>
                     </div>
                     <div>
                         <label for="correo-electronico">Correo Electrónico</label>
-                        <input type="email" name="correo-electronico" id="correo-electronico">
+                        <div class="input">
+                            <input type="email" name="correo-electronico" id="correo-electronico">
+                        </div>
                     </div>
                     <div>
                         <label for="asunto">Asunto</label>
-                        <input type="text" name="asunto" id="asunto">
+                        <div class="input">
+                            <input type="text" name="asunto" id="asunto">
+                        </div>
                     </div>
                     <div>
                         <label for="mensaje">Mensaje</label>
-                        <textarea name="mensaje" id="mensaje"></textarea> 
+                        <div class="input">
+                            <textarea name="mensaje" id="mensaje"></textarea> 
+                        </div>
                     </div>
                     <button type="submit" class="btn btn-primary">Enviar</button>
                 </form>
