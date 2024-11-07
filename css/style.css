@@ -93,7 +93,7 @@ li {
 }
 
 .navbar-toggler {
-    position: fixed;
+    position: absolute;
     right: 5%
 }
 
@@ -437,9 +437,27 @@ h4 {
         margin-right: 50px;
     }
 
+    .li-index {
+        width: 120px;
+
+    }
+
+    .li-index a {
+        font-size: 15px;
+    }
+
     .main-contenedor-index {
         background-image: url(../img/fondo-inicio3.jpg);
         background-size: cover;
+    }
+
+    .main-contenedor-section1 h2 {
+    width:250px;
+    }
+
+    .main-contenedor-section1 form {
+        margin-left: 20px;
+    
     }
 
     .main-contenedor-section2 {
