@@ -148,6 +148,7 @@
   align-self: center;
 }
 .main-contenedor .nosotros-contenedor .texto-nosotros h2 {
+  font-family: "Shantell Sans", cursive;
   margin-left: 50px;
 }
 .main-contenedor .nosotros-contenedor .texto-nosotros p {
@@ -182,6 +183,7 @@
   align-self: center;
 }
 .main-contenedor .nosotros-contenedor .texto-nosotros h2 {
+  font-family: "Shantell Sans", cursive;
   margin-left: 50px;
 }
 .main-contenedor .nosotros-contenedor .texto-nosotros p {
@@ -209,6 +211,7 @@
   grid-area: main-contenedor-quiero-section1;
 }
 .main-contenedor .main-contenedor-section1 h2 {
+  font-family: "Shantell Sans", cursive;
   margin-top: 10%;
   line-height: 1;
 }
@@ -229,15 +232,15 @@
   align-items: center;
   align-content: center;
   column-gap: 2%;
-  margin: 2%;
+  margin-top: 2%;
   grid-area: main-contenedor-quiero-section2;
 }
 .main-contenedor .main-contenedor-section2 .tarjeta {
-  width: 201px;
+  width: 181px;
 }
 .main-contenedor .main-contenedor-section2 .tarjeta .ficha {
-  height: 200px;
-  width: 200px;
+  height: 180px;
+  width: 180px;
   object-fit: cover;
 }
 .main-contenedor .main-contenedor-section2 .tarjeta .ficha:hover {
@@ -247,15 +250,21 @@
   display: flex;
   justify-content: space-between;
   align-content: center;
+  height: 50px;
 }
-.main-contenedor .main-contenedor-section2 .tarjeta .ficha-texto h5 {
-  align-self: center;
+.main-contenedor .main-contenedor-section2 .tarjeta .ficha-texto .card-title {
+  align-items: center;
+  font-size: 1.15rem;
+  line-height: 1.2;
+}
+.main-contenedor .main-contenedor-section2 .tarjeta .ficha-texto .card-text {
+  align-items: center;
 }
 
 /* Estilo Main: Quiero Colaborar */
 .main-contenedor .main-contenedor-section2 .refugio {
-  height: 200px;
-  width: 200px;
+  height: 180px;
+  width: 180px;
   object-fit: cover;
 }
 .main-contenedor .main-contenedor-section2 .refugio:hover {
@@ -277,6 +286,7 @@
   align-self: center;
 }
 .main-contenedor .nosotros-contenedor .texto-nosotros h2 {
+  font-family: "Shantell Sans", cursive;
   margin-left: 50px;
 }
 .main-contenedor .nosotros-contenedor .texto-nosotros p {
@@ -300,6 +310,9 @@
   margin-top: 5%;
   line-height: 1.5;
   width: 60vw;
+}
+.main-contenedor .titulo-contacto h2 {
+  font-family: "Shantell Sans", cursive;
 }
 .main-contenedor .formulario-contacto {
   margin-top: 5%;
@@ -372,6 +385,7 @@
   .main-contenedor .main-contenedor-section2 {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+    margin-top: 3%;
   }
 }
 @media (max-width: 850px) {
@@ -381,7 +395,6 @@
   .main-contenedor .main-contenedor-section2 {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    margin-top: 5%;
   }
 }
 @media (max-width: 600px) {

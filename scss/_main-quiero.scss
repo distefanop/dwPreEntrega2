@@ -10,6 +10,7 @@
     align-content: start;
     grid-area: main-contenedor-quiero-section1;
     h2 {
+        font-family: "Shantell Sans", cursive;
         margin-top: 10%;
         line-height: 1;
     }
@@ -31,13 +32,13 @@
         align-items: center;
         align-content: center;
         column-gap: 2%;
-        margin: 2%;
+        margin-top: 2%;
         grid-area: main-contenedor-quiero-section2;
         .tarjeta {
-            width: 201px;
+            width: 181px;
             .ficha {
-                height: 200px;
-                width: 200px;
+                height: 180px;
+                width: 180px;
                 object-fit: cover;
                 &:hover {
                     // border-radius: 30px;
@@ -48,8 +49,14 @@
                 display: flex;
                 justify-content: space-between;
                 align-content: center;
-                h5 {
-                    align-self: center;
+                height: 50px;
+                .card-title {
+                    align-items: center;
+                    font-size: 1.15rem;
+                    line-height: 1.2;
+                }
+                .card-text {
+                    align-items: center;
                 }
             }                
         }        
@@ -61,8 +68,8 @@
 .main-contenedor {
     .main-contenedor-section2 {
         .refugio {
-            height: 200px;
-            width:200px;
+            height: 180px;
+            width:180px;
             // border: #000000 solid 2px;
             object-fit: cover;
             &:hover {
