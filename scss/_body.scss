@@ -1,0 +1,24 @@
+/* revisar código para unificar la clase */
+
+/* Estilo Body */
+
+.body-contenedor-index {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 2.2fr 0.3fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "header-contenedor"
+      "main-contenedor-index"
+      "footer-contenedor";
+}
+
+.body-contenedor {
+    @extend .body-contenedor-index;
+    grid-template-areas:
+      "header-contenedor"
+      "main-contenedor"
+      "footer-contenedor";
+      
+}

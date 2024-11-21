@@ -1,0 +1,64 @@
+/* Estilo Main: Index */
+
+.main-contenedor-index {
+    background-image: url(../img/fondo-inicio.jpg);
+    background-size: cover;
+    grid-area: main-contenedor-index;
+    position:relative;
+    top: 0;
+    left: 0;
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #dc5f2e39;
+      }
+    .titulo-index {
+        text-align: center;
+        color:$text-color;
+        position: relative;
+        top: 70%;
+        h2 {
+            font-family: "Shantell Sans", cursive;
+            font-size: 30px;
+        }
+    }
+    .nav-index {
+        position: relative;
+        top: 70%;
+        width:70%;
+        margin:0 auto;
+        .ul-index {
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+            list-style-type: none;
+            .li-index {
+                // margin-top: 350px;
+                margin-left: 10px;
+                margin-right: 10px;
+                width: 200px;
+                border: $primary-color 2px solid;
+                background-color: $primary-color;
+                border-radius: 20px;
+                text-align: center;
+                transition: all 1s;
+                &:hover {
+                    background-color: $secondary-color;
+                    border: $secondary-color 2px solid;
+                    transform: scale(1.1, 1.1);
+                }
+                a {
+                    font-family: "Dekko", cursive;
+                    font-size: 24px;
+                    text-decoration: none;
+                    color: $text-color;
+                }
+            }
+        }
+    }    
+}
+

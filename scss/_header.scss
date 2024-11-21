@@ -1,0 +1,52 @@
+/* Estilo Header */
+
+.header-contenedor {
+    display: flex;
+    background: linear-gradient(to right, $secondary-color, $primary-color);
+    font-family: "Dekko", cursive;
+    color: $text-color;
+    // width: 100vw;
+    grid-area: header-contenedor;
+    .logo-contenedor {
+        display: flex;
+        width: 50vw;
+        margin: auto 0;
+        .logo img {
+            display: flex;
+            width: 100px;
+            border-radius: 60px;
+            padding: 10px;
+        }        
+        .titulo {
+            margin: auto 0;
+            h1 {
+                font-size: 40px;
+            }
+        }
+    }
+    .navbar {
+        width: 50vw;
+        .navbar-toggler {
+            position: absolute;
+            right: 5%;
+            border: $text-color 1px solid;
+            &:hover {
+                color: $text-color;
+            }
+        }
+        .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+        }
+        .offcanvas {
+            background-color: #dc5f2e8f;
+            width: 40%;
+        }
+        .offcanvas-body .navbar-nav .nav-item {
+            display: inline-block;
+            transition: all 1s;
+            &:hover{
+                transform: scale(1.1, 1.1);
+            }
+        }
+    }
+}

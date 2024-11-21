@@ -1,0 +1,36 @@
+/* Estilo Main: Contacto */
+
+@import "main-nosotros";
+
+.main-contenedor {
+    .titulo-contacto {
+        margin-top: 5%;
+        // margin-left: 5%;
+        // margin-right: 5%;
+        line-height: 1.5;
+        width: 60vw;
+    }
+    .formulario-contacto {
+        margin-top: 5%;
+        margin-right: 5%;
+        form {
+            display: flex;
+            flex-direction: column;
+            div {
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                .input {
+                    textarea {
+                        width: 184px;
+                    }
+                }
+            }
+            .btn {
+                background-color: $primary-color;
+                border: $primary-color 1px solid;
+            }
+        }
+    }
+    }
+    

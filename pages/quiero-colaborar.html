@@ -46,27 +46,29 @@
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <!-- <a class="navbar-brand" href="#">Inicio</a> -->
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link fs-5 text-light" aria-current="page" href="../index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link fs-5 text-light" aria-current="page" href="nosotros.html">Nosotros</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link fs-5  text-light" href="quiero-adoptar.html">Quiero Adoptar</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link fs-5  text-light" href="#">Quiero Colaborar</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link fs-5  text-light" href="contacto.html">Contacto</a>
-                        </li>
-                    </ul>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link fs-5 text-light" aria-current="page" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fs-5 text-light" aria-current="page" href="nosotros.html">Nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fs-5  text-light" href="quiero-adoptar.html">Quiero Adoptar</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fs-5  text-light" href="#">Quiero Colaborar</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fs-5  text-light" href="contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -74,37 +76,86 @@
     <main class="main-contenedor">
         <section class="main-contenedor-section1">
             <h2>Quiero Colaborar</h2>
-                <form action="/submit" method="post">
+            <form action="/submit" method="post">
+                <div>
+                    <label for="provincia">Provincia</label>
                     <div class="input">
-                        <label for="provincia">Provincia</label>
-                        <div >
-                            <input type="text" name="provincia" id="provincia">
-                        </div>
+                        <input type="text" name="provincia" id="provincia">
                     </div>
+                </div>
+                <div >
+                    <label for="especie">Especie</label>
                     <div class="input">
-                        <label for="especie">Especie</label>
-                        <div>
-                            <input type="text" name="especie" id="especie">
-                        </div>
+                        <input type="text" name="especie" id="especie">
                     </div>
-                </form>            
+                </div>
+            </form>            
         </section>
         <section class="main-contenedor-section2">
-            <!-- <div class="refugios-fila1"> -->
-                <img class="refugio" src="../img/img-refugio1.png" alt="logo refugio1">
+            <div class="card mb-3 tarjeta">
+                <img src="../img/img-refugio1.png" class="card-img-top refugio" alt="logo refugio1">
+                <div class="card-body ficha-texto">
+                  <h5 class="card-title">Recoleta</h5>
+                  <p class="card-text">Gatos</p>
+                </div>
+            </div>
+            <div class="card mb-3 tarjeta">
+                <img src="../img/img-refugio2.png" class="card-img-top refugio" alt="logo refugio2">
+                <div class="card-body ficha-texto">
+                  <h5 class="card-title">Ezeiza</h5>
+                  <p class="card-text">Perros</p>
+                </div>
+            </div>
+            <div class="card mb-3 tarjeta">
+                <img src="../img/img-refugio3.png" class="card-img-top refugio" alt="logo refugio3">
+                <div class="card-body ficha-texto">
+                  <h5 class="card-title">Flores</h5>
+                  <p class="card-text">Ambos</p>
+                </div>
+            </div>
+            <div class="card mb-3 tarjeta">
+                <img src="../img/img-refugio4.png" class="card-img-top refugio" alt="logo refugio4">
+                <div class="card-body ficha-texto">
+                  <h5 class="card-title">Flores</h5>
+                  <p class="card-text">Gatos</p>
+                </div>
+            </div>
+            <div class="card mb-3 tarjeta">
+                <img src="../img/img-refugio5.png" class="card-img-top refugio" alt="logo refugio5">
+                <div class="card-body ficha-texto">
+                  <h5 class="card-title">Vte. López</h5>
+                  <p class="card-text">Ambos</p>
+                </div>
+            </div>
+            <div class="card mb-3 tarjeta">
+                <img src="../img/img-refugio6.png" class="card-img-top refugio" alt="logo refugio6">
+                <div class="card-body ficha-texto">
+                  <h5 class="card-title">Agronomía</h5>
+                  <p class="card-text">Perros</p>
+                </div>
+            </div>
+            <div class="card mb-3 tarjeta">
+                <img src="../img/img-refugio7.png" class="card-img-top refugio" alt="logo refugio7">
+                <div class="card-body ficha-texto">
+                  <h5 class="card-title">Floresta</h5>
+                  <p class="card-text">Perros</p>
+                </div>
+            </div>
+            <div class="card mb-3 tarjeta">
+                <img src="../img/img-refugio8.png" class="card-img-top refugio" alt="logo refugio8">
+                <div class="card-body ficha-texto">
+                  <h5 class="card-title">Merlo</h5>
+                  <p class="card-text">Perros</p>
+                </div>
+            </div>
+                <!-- <img class="refugio" src="../img/img-refugio1.png" alt="logo refugio1">
                 <img class="refugio" src="../img/img-refugio2.png" alt="logo refugio2">
                 <img class="refugio" src="../img/img-refugio3.png" alt="logo refugio3">
-            <!-- </div>
-            <div class="refugios-fila2"> -->
                 <img class="refugio" src="../img/img-refugio4.png" alt="logo refugio4">
                 <img class="refugio" src="../img/img-refugio5.png" alt="logo refugio5">
                 <img class="refugio" src="../img/img-refugio6.png" alt="logo refugio6">
-            <!-- </div>
-            <div class="refugios-fila3"> -->
                 <img class="refugio" src="../img/img-refugio7.png" alt="logo refugio7">
-                <img class="refugio" src="../img/img-refugio8.png" alt="logo refugio8">
-                <!-- <img class="refugio" src="../img/img-refugio9.png" alt="perro"> -->
-            <!-- </div>           -->
+                <img class="refugio" src="../img/img-refugio8.png" alt="logo refugio8"> -->
         </section>
     </main>
     <footer class="footer-contenedor">

@@ -1,0 +1,75 @@
+/* Estilo Main: Quiero Adoptar */
+
+@import "main-nosotros";
+
+.main-contenedor {
+    .main-contenedor-section1 {
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+    align-content: start;
+    grid-area: main-contenedor-quiero-section1;
+    h2 {
+        margin-top: 10%;
+        line-height: 1;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        div {
+            margin: 0 auto;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+    }
+}
+    .main-contenedor-section2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        align-items: center;
+        align-content: center;
+        column-gap: 2%;
+        margin: 2%;
+        grid-area: main-contenedor-quiero-section2;
+        .tarjeta {
+            width: 201px;
+            .ficha {
+                height: 200px;
+                width: 200px;
+                object-fit: cover;
+                &:hover {
+                    // border-radius: 30px;
+                    opacity: 0.5;
+                } 
+            }     
+            .ficha-texto {
+                display: flex;
+                justify-content: space-between;
+                align-content: center;
+                h5 {
+                    align-self: center;
+                }
+            }                
+        }        
+    }
+}
+
+/* Estilo Main: Quiero Colaborar */
+
+.main-contenedor {
+    .main-contenedor-section2 {
+        .refugio {
+            height: 200px;
+            width:200px;
+            // border: #000000 solid 2px;
+            object-fit: cover;
+            &:hover {
+                // border-radius: 30px;
+                opacity: 0.5;
+            }
+        }        
+    }
+}
+

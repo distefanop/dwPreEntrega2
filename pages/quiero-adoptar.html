@@ -46,28 +46,30 @@
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <!-- <a class="navbar-brand" href="#">Inicio</a> -->
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link fs-5 text-light" aria-current="page" href="../index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link fs-5 text-light" aria-current="page" href="nosotros.html">Nosotros</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link fs-5  text-light" href="#">Quiero Adoptar</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link fs-5  text-light" href="quiero-colaborar.html">Quiero Colaborar</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link fs-5  text-light" href="contacto.html">Contacto</a>
-                        </li>
-                    </ul>
-                </div>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link fs-5 text-light" aria-current="page" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fs-5 text-light" aria-current="page" href="nosotros.html">Nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fs-5  text-light" href="#">Quiero Adoptar</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fs-5  text-light" href="quiero-colaborar.html">Quiero Colaborar</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fs-5  text-light" href="contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>    
             </div>
         </nav>
     </header>
@@ -75,59 +77,108 @@
         <section class="main-contenedor-section1">
             <h2>Quiero Adoptar</h2>
             <form action="/submit" method="post">
-                <div class="input">
+                <div>
                     <label for="provincia">Provincia</label>
-                    <div>
+                    <div class="input">
                         <input type="text" name="provincia" id="provincia">
                     </div>
-                <div class="input">
+                <div>
                     <label for="especie">Especie</label>
-                    <div>
+                    <div class="input">
                         <input type="text" name="especie" id="especie">
                     </div>
                 </div>
-                <div class="input">
+                <div>
                     <label for="sexo">Sexo</label>
-                    <div>
+                    <div class="input">
                         <input type="text" name="sexo" id="sexo">
                     </div>
                 </div>
-                <div class="input">
+                <div>
                     <label for="energico">Enérgico/a</label>
-                    <div>
+                    <div class="input">
                         <input type="text" name="energico" id="energico">
                     </div>
                 </div>
-                <div class="input">
+                <div>
                     <label for="desparacitado">Desparacitado/a</label>
-                    <div>
+                    <div class="input">
                         <input type="text" name="desparacitado" id="desparacitado">
                     </div>
                 </div>
-                <div class="input">
+                <div>
                     <label for="esterilizado">Esterilizado/a</label>
-                    <div>
+                    <div class="input">
                         <input type="text" name="esterilizado" id="esterilizado">
                     </div>
                 </div>
             </form>         
         </section>
         <section class="main-contenedor-section2">
-            <!-- <div class="fichas-fila1"> -->
-                <img class="ficha" src="../img/img-ficha1.jpg" alt="perro">
+                <div class="card mb-3 tarjeta">
+                    <img src="../img/img-ficha1.jpg" class="card-img-top ficha" alt="perro">
+                    <div class="card-body ficha-texto">
+                      <h5 class="card-title">Porota</h5>
+                      <p class="card-text">2 meses</p>
+                    </div>
+                  </div>
+                <div class="card mb-3 tarjeta">
+                    <img src="../img/img-ficha2.jpg" class="card-img-top ficha" alt="gato">
+                    <div class="card-body ficha-texto">
+                        <h5 class="card-title">Pistacho</h5>
+                        <p class="card-text">3 años</p>
+                    </div>
+                </div>                
+                <div class="card mb-3 tarjeta">
+                    <img src="../img/img-ficha3.jpg" class="card-img-top ficha" alt="perro">
+                    <div class="card-body ficha-texto">
+                        <h5 class="card-title">Buñuelo</h5>
+                        <p class="card-text">3 meses</p>
+                    </div>
+                </div>                
+                <div class="card mb-3 tarjeta">
+                    <img src="../img/img-ficha4.jpg" class="card-img-top ficha" alt="gato">
+                    <div class="card-body ficha-texto">
+                        <h5 class="card-title">Kiwi</h5>
+                        <p class="card-text">2 meses</p>
+                    </div>
+                </div>                
+                <div class="card mb-3 tarjeta">
+                    <img src="../img/img-ficha5.jpg" class="card-img-top ficha" alt="perro">
+                    <div class="card-body ficha-texto">
+                        <h5 class="card-title">Grisín</h5>
+                        <p class="card-text">1 mes</p>
+                    </div>
+                </div>                
+                <div class="card mb-3 tarjeta">
+                    <img src="../img/img-ficha6.jpg" class="card-img-top ficha" alt="gato">
+                    <div class="card-body ficha-texto">
+                        <h5 class="card-title">Perla</h5>
+                        <p class="card-text">3 años</p>
+                    </div>
+                </div>                
+                <div class="card mb-3 tarjeta">
+                    <img src="../img/img-ficha7.jpg" class="card-img-top ficha" alt="perro">
+                        <div class="card-body ficha-texto">
+                            <h5 class="card-title">Menta</h5>
+                            <p class="card-text">5 meses</p>
+                        </div>
+                    </div>
+                <div class="card mb-3 tarjeta">
+                    <img src="../img/img-ficha8.jpg" class="card-img-top ficha" alt="gato">
+                    <div class="card-body ficha-texto">
+                        <h5 class="card-title">Odín</h5>
+                        <p class="card-text">1 año</p>
+                    </div>
+                </div>
+                <!-- <img class="ficha" src="../img/img-ficha1.jpg" alt="perro">
                 <img class="ficha" src="../img/img-ficha2.jpg" alt="gato">
                 <img class="ficha" src="../img/img-ficha3.jpg" alt="perro">
-            <!-- </div>
-            <div class="fichas-fila2"> -->
                 <img class="ficha" src="../img/img-ficha4.jpg" alt="gato">
                 <img class="ficha" src="../img/img-ficha5.jpg" alt="perro">
                 <img class="ficha" src="../img/img-ficha6.jpg" alt="gato">
-            <!-- </div>
-            <div class="fichas-fila3"> -->
                 <img class="ficha" src="../img/img-ficha7.jpg" alt="perro">
-                <img class="ficha" src="../img/img-ficha8.jpg" alt="gato">
-                <!-- <img class="ficha" src="../img/img-ficha9.jpg" alt="perro"> -->
-            <!-- </div> -->
+                <img class="ficha" src="../img/img-ficha8.jpg" alt="gato"> -->
         </section>
     </main>
     <footer class="footer-contenedor">
