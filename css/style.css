@@ -169,40 +169,6 @@
 }
 
 /* Estilo Main: Quiero Adoptar */
-/* Estilo Main: Nosotros */
-.main-contenedor {
-  display: flex;
-  justify-content: space-evenly;
-  grid-area: main-contenedor;
-}
-.main-contenedor .nosotros-contenedor {
-  display: flex;
-}
-.main-contenedor .nosotros-contenedor .texto-nosotros {
-  line-height: 1.5;
-  align-self: center;
-}
-.main-contenedor .nosotros-contenedor .texto-nosotros h2 {
-  font-family: "Shantell Sans", cursive;
-  margin-left: 50px;
-}
-.main-contenedor .nosotros-contenedor .texto-nosotros p {
-  margin-left: 50px;
-  margin-right: 50px;
-}
-.main-contenedor .nosotros-contenedor .img-nosotros {
-  display: flex;
-  justify-content: center;
-}
-.main-contenedor .nosotros-contenedor .img-nosotros img {
-  width: 45vw;
-  margin-top: 20px;
-  margin-right: 20px;
-  border-radius: 30px;
-  align-self: center;
-  margin: 1rem;
-}
-
 .main-contenedor .main-contenedor-section1 {
   display: flex;
   flex-direction: column;
@@ -272,40 +238,6 @@
 }
 
 /* Estilo Main: Contacto */
-/* Estilo Main: Nosotros */
-.main-contenedor {
-  display: flex;
-  justify-content: space-evenly;
-  grid-area: main-contenedor;
-}
-.main-contenedor .nosotros-contenedor {
-  display: flex;
-}
-.main-contenedor .nosotros-contenedor .texto-nosotros {
-  line-height: 1.5;
-  align-self: center;
-}
-.main-contenedor .nosotros-contenedor .texto-nosotros h2 {
-  font-family: "Shantell Sans", cursive;
-  margin-left: 50px;
-}
-.main-contenedor .nosotros-contenedor .texto-nosotros p {
-  margin-left: 50px;
-  margin-right: 50px;
-}
-.main-contenedor .nosotros-contenedor .img-nosotros {
-  display: flex;
-  justify-content: center;
-}
-.main-contenedor .nosotros-contenedor .img-nosotros img {
-  width: 45vw;
-  margin-top: 20px;
-  margin-right: 20px;
-  border-radius: 30px;
-  align-self: center;
-  margin: 1rem;
-}
-
 .main-contenedor .titulo-contacto {
   margin-top: 5%;
   line-height: 1.5;
@@ -378,7 +310,7 @@
     text-align: center;
   }
   .main-contenedor .img-nosotros img {
-    width: 75vw;
+    width: 100vw;
     align-self: center;
   }
   .main-contenedor .main-contenedor-section2 {
