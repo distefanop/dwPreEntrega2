@@ -34,7 +34,7 @@
   width: 50vw;
   margin: auto 0;
 }
-.header-contenedor .logo-contenedor .logo img {
+.header-contenedor .logo-contenedor .logo a img {
   display: flex;
   width: 100px;
   border-radius: 60px;
@@ -276,14 +276,15 @@
   background-color: #dc602e;
   grid-area: footer-contenedor;
 }
-.footer-contenedor div .img-footer-ig, .footer-contenedor div .img-footer-fb {
-  width: 40px;
-  height: 40px;
+.footer-contenedor div a {
+  color: #dc602e;
+}
+.footer-contenedor div a .img-footer-ig, .footer-contenedor div a .img-footer-fb {
+  width: 35px;
+  height: 35px;
   object-fit: contain;
   padding: 5px;
-}
-.footer-contenedor div .img-footer-fb {
-  margin-bottom: 2px;
+  margin-top: 5px;
 }
 .footer-contenedor h4 {
   color: #ffffff;
