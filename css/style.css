@@ -286,6 +286,9 @@
   padding: 5px;
   margin-top: 5px;
 }
+.footer-contenedor div a .img-footer-fb {
+  width: 48px;
+}
 .footer-contenedor h4 {
   color: #ffffff;
 }
