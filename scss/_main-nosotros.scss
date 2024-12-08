@@ -9,7 +9,6 @@
         .texto-nosotros {
             line-height: 1.5;
             align-self: center;
-            // width: 50vw;
             h2 {
                 font-family: "Shantell Sans", cursive;
                 margin-left: 50px;
@@ -22,14 +21,11 @@
         .img-nosotros {
             display: flex;
             justify-content: center;
-            // width: 50vw;
             img {
                 width: 45vw;
-                margin-top: 20px;
-                margin-right: 20px;
                 border-radius: 30px;
                 align-self: center;
-                margin: 1rem
+                margin: 1.5rem
             }
         }
     }
